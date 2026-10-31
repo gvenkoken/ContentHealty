@@ -1,0 +1,22 @@
+[
+  {
+    "ad": "Sodyum nitrit",
+    "e_kodu": "E250",
+    "esanlamlilar": ["sodium nitrite", "sodyum nitrit", "E 250"],
+    "varsayilan_sinif": "caution",
+    "kategori_siniflari": { "gıda": "avoid" },
+    "neden": "Nitrit içeren işlenmiş etlerin tüketim sıklığına dikkat edilmesi önerilir; bu sınıf tek başına ürünün güvenliğini belirlemez.",
+    "kaynak": "EFSA Journal 2017;15(6):4786 — Re-evaluation of potassium nitrite (E 249) and sodium nitrite (E 250) as food additives",
+    "son_kontrol": "2026-10-31"
+  },
+  {
+    "ad": "Sitrik asit",
+    "e_kodu": "E330",
+    "esanlamlilar": ["citric acid", "sitrik asit", "E 330"],
+    "varsayilan_sinif": "none",
+    "kategori_siniflari": { "temizlik": "caution" },
+    "neden": "Gıdalarda asitlik düzenleyici olarak kullanılır. Konsantre temizlik ürünlerinde göz ve cilt teması tahrişe neden olabilir.",
+    "kaynak": "JECFA — Citric acid; ECHA — Citric acid substance information",
+    "son_kontrol": "2026-10-31"
+  }
+]
