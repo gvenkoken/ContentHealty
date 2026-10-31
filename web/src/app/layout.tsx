@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import Link from "next/link";
-import "tailwindcss/tailwind.css";
+import { AppNav } from "../components/AppNav";
+import "./globals.css";
 import Providers from "./providers";
 
 export const metadata: Metadata = {
@@ -19,15 +19,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="tr">
       <body>
         <Providers>
-          <header>
-            <Link href="/">İçerik Asistanı</Link>
-            <nav aria-label="Ana gezinme">
-              <Link href="/">Yeni analiz</Link>{" "}
-              <Link href="/listem">Listem</Link>{" "}
-              <Link href="/hakkinda">Hakkında</Link>
-            </nav>
-          </header>
-          <main id="icerik">{children}</main>
+          <AppNav />
+          <main id="icerik" className="container">{children}</main>
         </Providers>
       </body>
     </html>
